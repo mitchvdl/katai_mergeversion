@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Katai_Mergeversion>
+            <version>1.0.0.0</version>
+        </Katai_Mergeversion>
+    </modules>
+    <global>
+        <models>
+            <katai_mergeversion>
+                <class>Katai_Mergeversion_Model</class>
+                <resourceModel>katai_mergeversion_model_resource</resourceModel>
+            </katai_mergeversion>
+            <core>
+                <rewrite>
+                    <design_package>Katai_Mergeversion_Model_Design_Package</design_package>
+                </rewrite>
+            </core>
+            <katai_mergeversion_model_resource>
+                <class>Katai_Mergeversion_Model_Resource</class>
+            </katai_mergeversion_model_resource>
+        </models>
+        <helpers>
+            <katai_mergeversion>
+                <class>Katai_Mergeversion_Helper</class>
+            </katai_mergeversion>
+        </helpers>
+        <blocks>
+            <katai_mergeversion>
+                <class>Katai_Mergeversion_Block</class>
+            </katai_mergeversion>
+        </blocks>
+    </global>
+</config>
