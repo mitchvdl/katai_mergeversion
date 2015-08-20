@@ -1,0 +1,25 @@
+{
+  "name": "katai/mergeversion",
+  "type": "magento-module",
+  "license":"OSL-3.0",
+  "description":"Katai Merge Version",
+  "minimum-stability": "dev",
+
+  "authors":[
+    {
+      "name":"Mitch Vanderlinden",
+      "email":"magento@mitchvdl.be"
+    }
+  ],
+  "require" : {
+    "magento-hackathon/magento-composer-installer": "*",
+    "composer/composer": "~1.0.0@alpha"
+  },
+
+  "extra": {
+    "map": [
+      ["app/code/community/Katai/Mergeversion","app/code/community/Katai/Mergeversion"],
+      ["app/etc/modules/Katai_Mergeversion.xml","app/etc/modules/Katai_Mergeversion.xml"]
+    ]
+  }
+}
